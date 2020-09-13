@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/paragrafos.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+
+    <title>ODS 9</title>
+</head>
+<body>
+
+<figure id="capa">
+    <div class="imagem-fundo">
+        <h1 id="titulo_principal">Pequenas Ideias, Geram grandes Resultados</h1>
+        <a href="#projeto" id="link-inicial">Vamos la?</a>              
+    </div>
+
+</figure>
+<header>
+    <!--Menu do Site-->
+    <ul id="menu">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Inicio</a></li>
+    </ul>
+</header>
+
+<section id="conteudo">
+    <section class="projeto" id="projeto">
+        <div class="paragrafo-esquerdo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis beatae assumenda nisi impedit! Quia similique, obcaecati tempora ut repudiandae amet animi quod ad laborum soluta nisi, beatae mollitia libero?</p>
+        </div>
+        <div class="paragrafo-esquerdo imagens-direita">
+            <img src="Imagens/Fundo45.jpg"alt="Imagem de Nikola Tesla" class="img">
+        </div>
+    </section>
+    
+    <section class="projeto">
+        <div class="paragrafo-esquerdo imagens-direita">
+            <img src="Imagens/Fundo45.jpg"alt="Imagem de Nikola Tesla" class="img">
+        </div>
+        <div class="paragrafo-direita">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laborum illum corporis! Cum nemo aliquid consectetur officia mollitia accusantium totam quia, expedita fuga commodi illo veritatis soluta, consequatur praesentium architecto.</p>
+        </div>
+    </section>
+
+</section>
+<footer>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+
+/*Formatação de Conteudos da parte de Conteudos*/
+    /*Tamanho da seção conteudos*/
+        #conteudo{
+            min-height: 100vh;
+        }
+    /*Organização da pagina web no formato display:flex*/
+        .projeto{
+            display: flex;
+            flex-direction: row;
+            border: 4px solid green;
+        }
+
+    /*Organização do paragrafo do tipo texto no lado esquerdo*/
+        .paragrafo-esquerdo{
+            width: 60%;
+            text-align: justify;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            margin-left: 1%;
+        }
+        .paragrafo-direita{
+            text-align: justify;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            margin-left: 2%;
+            margin-right: 4%;
+        }
+
+/*Finalização da Formatação de Conteudos da parte de Conteudos*/
+
+/*Seção de Configuração de Imagens da parte de conteudo*/
+    /*configuração das imagens no conteudo*/
+        .img{
+            border-radius: 10px;
+        }
+    /* Alinhamento das imagens a esquerda*/
+        .imagem-esquerda{
+            width:40%;
+            margin-top: 20px;
+            margin-left:1.5%;
+        }
+/* Alinhamento das imagens a direita*/
+        .imagem-direita{
+            width:40%;
+            margin-top: 20px;
+            margin-right:1.3%;
+            margin-left:1.6%;
+        }
+
+/*Finalização da parte de Imagens da parte de Conteudo*/
+
+/*Organização de Textos da parte de conteudo*/
+    /*Formatação dos textos na seção conteudo*/
+        .formatacao-paragrafos{
+            text-align: justify;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 1%;
+        }
+        .alinhamento-sub-conteudo{
+            text-align: center;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .sec-pequeno-video{
+            display: flex;
+            flex-direction: column;
+            border: 4px solid black;
+            position: relative;
+        }
+        #dv-titulo-pequeno-video{
+            position: relative;
+        }
+
+        .dv-video{
+            width: 100%;
+
+            
+        }
+        .video{
+            border: 5px solid black;
+
+        }
+
+        #sec-sobremim{
+            min-height: 100vh;
+        }
+        .dv-sobremim{
+            display: flex;
+        }
+        #sub-titulo-sobremim{
+            color: black;
+            width: 100%;
+            max-height: 50px;
+            text-align: center;
+            margin-top: 1.5%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        #minhafoto{
+            width: 100%;
+            border-radius: 10px;
+    
+        }
+        .alinhamentoft-sobremim{
+            width: 38%;
+            margin-top: 1%;
+            min-height: 400px;
+            margin-right: 2%;
+        }
+
+        .sobre-mim{
+            margin-top: 1%;
+            margin-left: 2%;
+            margin-right: 2%;
+            color: black;
+            width: 58%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+

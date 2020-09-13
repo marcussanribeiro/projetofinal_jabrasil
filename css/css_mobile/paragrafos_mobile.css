@@ -1,0 +1,51 @@
+/*Responsividade da pagina web*/
+@media all and (max-width:800px){
+    /*Organização da pagina web no formato display:flex*/
+        .projeto{
+            display: flex;
+            flex-direction: column;
+        }
+    /*Organização do paragrafo do tipo texto no lado esquerdo*/
+        .paragrafo-esquerdo{
+            width: 100%;
+            margin-left:0;
+        }
+/*Seção de Configuração de Imagens da parte de conteudo*/
+    /*configuração das imagens no conteudo*/
+        .img{
+            border-radius: 10px;
+            width: 100%;
+        }
+    /* Alinhamento das imagens a esquerda*/
+        .imagem-esquerda{
+            width:100%;
+            margin-left: 0;
+        }
+    /* Alinhamento das imagens a direita*/
+        .imagem-direita{
+            width:100%;
+            margin-left: 0;
+        }
+
+/*Finalização da Configuração de imagens da parte de conteudo da versão mobile*/
+
+
+    /*Formatação dos textos na seção conteudo*/
+        .formatacao-paragrafos{
+            text-align: justify;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    /*Organização ao lado direito do paragrafo do tipo texto*/
+        .paragrafo-direita{
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 0;
+        }
+
+    /*Inversão da seção de texto a direita*/
+        .versao-mobile{
+            flex-direction: column-reverse;
+        }
+
+}
