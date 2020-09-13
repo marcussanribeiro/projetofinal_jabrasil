@@ -4,7 +4,7 @@
 }
 
 figure .imagem-fundo{
-    background:url(../Imagens/plano_fundo.png);
+    background:url(/../Imagens/plano_fundo.png);
     height: 100vh;
     width: 100%;
     background-size: cover;
